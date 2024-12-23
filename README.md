@@ -5,10 +5,10 @@
 ## Overview:
 This project focuses on analyzing the avocado market and building a machine learning model to predict the price of avocados based on various features such as region, year, volume, and avocado type. The goal is to answer critical business questions about avocado pricing and production patterns,  Several machine learning models were trained, and XGBoost showed the highest accuracy in price prediction. An interactive web app was developed using Streamlit, allowing users to predict avocado prices based on input variables, offering valuable insights into market trends and dynamics.
 - **Business Questions Addressed:**
-    1. Which regions have the lowest and highest avocado prices?
-    2. What region has the highest avocado production?
-    3. What are the average avocado prices per year?
-    4. What are the average avocado volumes per year?
+    - Which regions have the lowest and highest avocado prices?
+    - What region has the highest avocado production?
+    - What are the average avocado prices per year?
+    - What are the average avocado volumes per year?
 ---
 
 ## Dataset Overview:
