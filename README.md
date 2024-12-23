@@ -87,13 +87,13 @@ The dataset utilized in this project contains comprehensive data on avocado sale
 
   |      Model              |      MAE      |     MSE       |      R²       | 
   |-------------------------|---------------|---------------|---------------|
-  | Linear Regression       |               |               |               |
-  | Decision Tree           |               |               |               |
-  | Random Forest           |               |               |               |
-  | Support Vector Machine  |               |               |               |
-  | K-Nearest Neighbors     |               |               |               |
-  | XGBoost                 |               |               |               |
-  | Deep Neural Network     |               |               |               |
+  | XGBoost                 |    0.094000   |    0.017000    |	0.900000    |
+  | Random Forest           |    0.097000	|    0.019000	 |  0.886000    |               
+  | K-nearest Neighbors     |    0.101000	|    0.025000	 |  0.852000    |              
+  | Deep Neural Network     |    0.120795	|    0.027021	 |  0.837290    |             
+  | Support Vector Machines |    0.118000	|    0.029000	 |  0.828000    |              
+  | Decision Tree           |    0.137000	|    0.042000	 |  0.745000    |           
+  | Linear Regression       |    0.184000	|    0.059000	 |  0.642000    |              
 
 From the above table, XGBoost performs the best among all models, achieving the lowest MAE and MSE, and the highest R² score. This indicates that the XGBoost model has the best predictive accuracy and is the most reliable model for predicting the average price of avocados.
 
